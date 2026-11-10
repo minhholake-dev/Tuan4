@@ -3,3 +3,11 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+
+# Local network, broker, topic and identity settings.
+/include/secrets*
+!/include/secrets.example.h
+/backups/
+.env
+.env.*
+!.env.example
